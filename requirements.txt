@@ -1,0 +1,35 @@
+# ============================================================
+# Project Dependencies — Traffic-Aware MetaDrive Agent
+# ============================================================
+# 
+# Install with: pip install -r requirements.txt
+# 
+# Python: 3.10+
+# CUDA: Optional (CPU fallback supported)
+#
+
+# ---- Reinforcement Learning ----
+stable-baselines3==2.8.0
+gymnasium==0.29.1
+
+# ---- Simulation ----
+metadrive-simulator==0.4.3
+
+# ---- Monitoring & Logging ----
+tensorboard==2.15.0
+
+# ---- Video & Image Processing ----
+opencv-python==4.8.1.78
+imageio==2.33.1
+imageio-ffmpeg==0.4.9
+
+# ---- Scientific Computing ----
+numpy==1.24.3
+
+# ---- Deep Learning (for GPU support) ----
+torch==2.3.1+cu121  # Remove +cu121 for CPU-only install
+
+# ---- Development (Optional) ----
+# pytest==7.4.0
+# black==23.9.1
+# flake8==6.1.0
